@@ -1,0 +1,108 @@
+{
+  "collectionName": "components_decoration_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "string",
+      "required": false
+    },
+    "content1": {
+      "type": "text"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "content2": {
+      "type": "text"
+    },
+    "title3": {
+      "type": "string"
+    },
+    "content3": {
+      "type": "string"
+    },
+    "title4": {
+      "type": "string"
+    },
+    "content4": {
+      "type": "richtext"
+    },
+    "title5": {
+      "type": "string"
+    },
+    "content5": {
+      "type": "string"
+    },
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "image1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "image2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "image3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "image4": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "disadvantages": {
+      "type": "json"
+    },
+    "title6": {
+      "type": "string"
+    }
+  }
+}

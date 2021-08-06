@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team",
+  "info": {
+    "name": "team",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true,
+      "default": "Founding Partner"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "socialMedia": {
+      "type": "json",
+      "unique": true
+    }
+  }
+}
