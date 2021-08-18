@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/philosophy",
-      "handler": "philosophy.find",
+      "handler": "philosophy?.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "PUT",
       "path": "/philosophy",
-      "handler": "philosophy.update",
+      "handler": "philosophy?.update",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "DELETE",
       "path": "/philosophy",
-      "handler": "philosophy.delete",
+      "handler": "philosophy?.delete",
       "config": {
         "policies": []
       }
