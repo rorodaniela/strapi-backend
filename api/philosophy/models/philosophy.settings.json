@@ -1,0 +1,72 @@
+{
+  "kind": "singleType",
+  "collectionName": "philosophy",
+  "info": {
+    "name": "philosophy",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "content1": {
+      "type": "richtext"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "subtitle2": {
+      "type": "richtext"
+    },
+    "content2": {
+      "type": "richtext"
+    },
+    "footer2": {
+      "type": "text"
+    },
+    "quotes": {
+      "type": "richtext"
+    },
+    "quotesFounder": {
+      "type": "string"
+    },
+    "need": {
+      "type": "json"
+    },
+    "background1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "background2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
