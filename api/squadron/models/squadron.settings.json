@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "squadrons",
+  "info": {
+    "name": "squadron",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "profpict": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "sosmed": {
+      "type": "json"
+    }
+  }
+}

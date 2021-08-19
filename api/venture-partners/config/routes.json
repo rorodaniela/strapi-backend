@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/venture-partners",
+      "handler": "venture-partners.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/venture-partners/count",
+      "handler": "venture-partners.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/venture-partners/:id",
+      "handler": "venture-partners.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/venture-partners",
+      "handler": "venture-partners.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/venture-partners/:id",
+      "handler": "venture-partners.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/venture-partners/:id",
+      "handler": "venture-partners.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

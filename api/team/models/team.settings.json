@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "teams",
+  "info": {
+    "name": "team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "subtitle1": {
+      "type": "text"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "title3": {
+      "type": "string"
+    },
+    "title4": {
+      "type": "string"
+    },
+    "title5": {
+      "type": "string"
+    },
+    "quotes": {
+      "type": "richtext"
+    },
+    "qoutesFounder": {
+      "type": "string"
+    }
+  }
+}

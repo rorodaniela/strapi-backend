@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "venture_partners",
+  "info": {
+    "name": "venture partners",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string",
+      "default": "Venture Partner"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "sosmed": {
+      "type": "json"
+    },
+    "profpict": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

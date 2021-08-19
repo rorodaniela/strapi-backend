@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/squadrons",
+      "handler": "squadron.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/squadrons/count",
+      "handler": "squadron.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/squadrons/:id",
+      "handler": "squadron.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/squadrons",
+      "handler": "squadron.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/squadrons/:id",
+      "handler": "squadron.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/squadrons/:id",
+      "handler": "squadron.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
