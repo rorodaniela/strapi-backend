@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/venture-building",
+      "handler": "venture-building.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/venture-building",
+      "handler": "venture-building.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/venture-building",
+      "handler": "venture-building.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

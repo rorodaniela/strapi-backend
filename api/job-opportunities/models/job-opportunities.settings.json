@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_opportunities",
+  "info": {
+    "name": "job opportunities",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "longName": {
+      "type": "text"
+    },
+    "shortName": {
+      "type": "string"
+    },
+    "shortDesc": {
+      "type": "richtext"
+    },
+    "longDesc": {
+      "type": "richtext"
+    },
+    "location": {
+      "via": "country",
+      "collection": "office-address"
+    }
+  }
+}

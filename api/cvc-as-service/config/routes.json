@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cvc-as-service",
+      "handler": "cvc-as-service.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cvc-as-service",
+      "handler": "cvc-as-service.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cvc-as-service",
+      "handler": "cvc-as-service.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

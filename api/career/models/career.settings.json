@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "name": "career"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "content1": {
+      "type": "richtext"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "title3": {
+      "type": "string"
+    }
+  }
+}

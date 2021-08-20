@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/office-addresses",
+      "handler": "office-address.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/office-addresses/count",
+      "handler": "office-address.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/office-addresses/:id",
+      "handler": "office-address.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/office-addresses",
+      "handler": "office-address.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/office-addresses/:id",
+      "handler": "office-address.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/office-addresses/:id",
+      "handler": "office-address.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

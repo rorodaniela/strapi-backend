@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "cvc_as_services",
+  "info": {
+    "name": "cvc as service"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title1": {
+      "type": "text"
+    },
+    "subtitle1": {
+      "type": "text"
+    },
+    "content1": {
+      "type": "richtext"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "subtitle2": {
+      "type": "text"
+    },
+    "content2": {
+      "type": "richtext"
+    },
+    "need": {
+      "type": "json"
+    },
+    "title3": {
+      "type": "string"
+    },
+    "subtitle3": {
+      "type": "text"
+    },
+    "content3": {
+      "type": "richtext"
+    },
+    "title4": {
+      "type": "string"
+    },
+    "content4": {
+      "type": "richtext"
+    },
+    "need2": {
+      "type": "json"
+    }
+  }
+}

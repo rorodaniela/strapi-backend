@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "teams",
+  "collectionName": "venture_buildings",
   "info": {
-    "name": "team",
-    "description": ""
+    "name": "venture building"
   },
   "options": {
     "increments": true,
@@ -12,31 +11,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title1": {
+    "title": {
       "type": "string"
     },
-    "subtitle1": {
-      "type": "text"
-    },
-    "title2": {
-      "type": "string"
-    },
-    "title3": {
-      "type": "string"
-    },
-    "title4": {
-      "type": "string"
-    },
-    "title5": {
-      "type": "string"
-    },
-    "quotes": {
+    "content1": {
       "type": "richtext"
     },
-    "qoutesFounder": {
-      "type": "string"
-    },
-    "background": {
+    "picture1": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -47,6 +28,15 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "need": {
+      "type": "json"
+    },
+    "quotes": {
+      "type": "richtext"
+    },
+    "quotesFounder": {
+      "type": "string"
     }
   }
 }
