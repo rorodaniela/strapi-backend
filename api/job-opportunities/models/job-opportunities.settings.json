@@ -21,11 +21,26 @@
     "shortDesc": {
       "type": "richtext"
     },
-    "longDesc": {
+    "longDesc1": {
+      "type": "richtext"
+    },
+    "longDesc2": {
+      "type": "richtext"
+    },
+    "longDesc3": {
+      "type": "richtext"
+    },
+    "longDesc4": {
+      "type": "richtext"
+    },
+    "longDesc5": {
+      "type": "richtext"
+    },
+    "longDesc6": {
       "type": "richtext"
     },
     "location": {
-      "via": "country",
+      "via": "jobAvailable",
       "collection": "office-address"
     }
   }

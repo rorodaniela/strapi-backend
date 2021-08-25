@@ -30,10 +30,13 @@
     "address": {
       "type": "text"
     },
-    "country": {
+    "jobAvailable": {
       "collection": "job-opportunities",
       "via": "location",
       "dominant": true
+    },
+    "country": {
+      "type": "string"
     }
   }
 }

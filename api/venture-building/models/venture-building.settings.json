@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "venture_buildings",
   "info": {
-    "name": "venture building"
+    "name": "Venture Building",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,13 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string"
     },
-    "content1": {
+    "content": {
       "type": "richtext"
     },
-    "picture1": {
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "diagram": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
