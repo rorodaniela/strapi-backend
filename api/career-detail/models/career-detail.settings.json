@@ -1,0 +1,69 @@
+{
+  "kind": "singleType",
+  "collectionName": "career_details",
+  "info": {
+    "name": "Career Detail"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "background1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "background2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title2": {
+      "type": "string"
+    },
+    "subtitle1": {
+      "type": "string"
+    },
+    "subtitle2": {
+      "type": "string"
+    },
+    "subtitle3": {
+      "type": "string"
+    },
+    "subtitle4": {
+      "type": "string"
+    },
+    "subtitle5": {
+      "type": "string"
+    },
+    "subtitle6": {
+      "type": "string"
+    },
+    "title3": {
+      "type": "string"
+    },
+    "content3": {
+      "type": "text"
+    },
+    "title4": {
+      "type": "string"
+    }
+  }
+}

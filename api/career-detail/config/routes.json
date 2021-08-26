@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/career-detail",
+      "handler": "career-detail.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/career-detail",
+      "handler": "career-detail.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/career-detail",
+      "handler": "career-detail.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

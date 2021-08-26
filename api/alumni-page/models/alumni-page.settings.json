@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "alumni_pages",
+  "info": {
+    "name": "alumniPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "quotes": {
+      "type": "richtext"
+    },
+    "quotesFounder": {
+      "type": "string"
+    },
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "subtitle1": {
+      "type": "string"
+    }
+  }
+}

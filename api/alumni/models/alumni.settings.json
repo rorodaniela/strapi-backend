@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alumni",
+  "info": {
+    "name": "alumni",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "text",
+      "default": "Alumni"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "sosmed": {
+      "type": "json"
+    },
+    "profpict": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
