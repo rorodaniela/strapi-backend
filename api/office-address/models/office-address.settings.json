@@ -37,6 +37,9 @@
     },
     "country": {
       "type": "string"
+    },
+    "embedMap": {
+      "type": "richtext"
     }
   }
 }
